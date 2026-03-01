@@ -20,13 +20,15 @@ Ethereum, BSC, Polygon, Arbitrum, Base, Solana, and 20+ other chains.
 
 All skills require OKX API credentials. Apply at [OKX Developer Portal](https://web3.okx.com/onchain-os/dev-portal).
 
-Set environment variables:
+Recommended: create a `.env` file in the project root:
 
 ```bash
-export OKX_API_KEY="your-api-key"
-export OKX_SECRET_KEY="your-secret-key"
-export OKX_PASSPHRASE="your-passphrase"
+OKX_API_KEY="your-api-key"
+OKX_SECRET_KEY="your-secret-key"
+OKX_PASSPHRASE="your-passphrase"
 ```
+
+**Security warning**: Never commit `.env` to git (add it to `.gitignore`) and never expose these credentials in logs, screenshots, or chat messages.
 
 ## Installation
 

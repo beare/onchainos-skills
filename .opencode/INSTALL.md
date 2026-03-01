@@ -34,23 +34,7 @@ rm -rf ~/.config/opencode/skills/onchainos-skills
 ln -s ~/.config/opencode/onchainos-skills/skills ~/.config/opencode/skills/onchainos-skills
 ```
 
-### 4. Set API Credentials
-
-Add your OKX API credentials to your shell profile (`~/.zshrc`, `~/.bashrc`, etc.):
-
-```bash
-export OKX_API_KEY="your-api-key"
-export OKX_SECRET_KEY="your-secret-key"
-export OKX_PASSPHRASE="your-passphrase"
-```
-
-Then reload your shell:
-
-```bash
-source ~/.zshrc   # or ~/.bashrc
-```
-
-### 5. Restart OpenCode
+### 4. Restart OpenCode
 
 Restart OpenCode. The plugin will automatically inject onchainos skill context.
 
@@ -96,12 +80,6 @@ git pull
 1. Check skills symlink: `ls -l ~/.config/opencode/skills/onchainos-skills`
 2. Verify it points to: `~/.config/opencode/onchainos-skills/skills`
 3. Use `skill` tool in OpenCode to list discovered skills
-
-### API authentication errors
-
-1. Verify environment variables are set: `echo $OKX_API_KEY`
-2. Check credentials at [OKX Developer Portal](https://web3.okx.com/onchain-os/dev-portal)
-3. Ensure `OKX_API_KEY`, `OKX_SECRET_KEY`, and `OKX_PASSPHRASE` are all set
 
 ## Getting Help
 

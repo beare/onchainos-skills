@@ -1,6 +1,6 @@
 # Installing onchainos Skills for Codex
 
-Enable onchainos skills in Codex via native skill discovery. Just clone, symlink, and set credentials.
+Enable onchainos skills in Codex via native skill discovery. Just clone, symlink.
 
 ## Prerequisites
 
@@ -29,19 +29,7 @@ Enable onchainos skills in Codex via native skill discovery. Just clone, symlink
    cmd /c mklink /J "$env:USERPROFILE\.agents\skills\onchainos-skills" "$env:USERPROFILE\.codex\onchainos-skills\skills"
    ```
 
-3. **Set API credentials:**
-
-   Add to your shell profile (`~/.zshrc`, `~/.bashrc`, etc.):
-
-   ```bash
-   export OKX_API_KEY="your-api-key"
-   export OKX_SECRET_KEY="your-secret-key"
-   export OKX_PASSPHRASE="your-passphrase"
-   ```
-
-   Then reload: `source ~/.zshrc`
-
-4. **Restart Codex** (quit and relaunch the CLI) to discover the skills.
+3. **Restart Codex** (quit and relaunch the CLI) to discover the skills.
 
 ## Verify
 

@@ -8,7 +8,7 @@ metadata:
   homepage: "https://web3.okx.com"
 ---
 
-# OKX DEX Balance API
+# OKX Wallet Portfolio API
 
 4 endpoints for supported chains, wallet total value, all token balances, and specific token balances.
 
