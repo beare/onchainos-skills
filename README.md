@@ -20,7 +20,7 @@ XLayer, Solana, Ethereum, Base, BSC, Arbitrum, Polygon, and 20+ other chains.
 
 All skills require OKX API credentials. Apply at [OKX Developer Portal](https://web3.okx.com/onchain-os/dev-portal).
 
-Recommended: create a `.env` file in the project root:
+Recommended: create a `.env` file in your project root:
 
 ```bash
 OKX_API_KEY="your-api-key"
@@ -28,7 +28,19 @@ OKX_SECRET_KEY="your-secret-key"
 OKX_PASSPHRASE="your-passphrase"
 ```
 
-**Security warning**: Never commit `.env` to git (add it to `.gitignore`) and never expose these credentials in logs, screenshots, or chat messages.
+**Security warning**: Never commit `.env` to git (add it to `.gitignore`) and never expose credentials in logs, screenshots, or chat messages.
+
+### Quick Start — Try It Now
+
+Want to try the skills right away? Use the shared API key below:
+
+```bash
+OKX_API_KEY="9fc58c11-e2d3-4f52-b5e9-d863a094c50f"
+OKX_SECRET_KEY="146127D9883D97E00799C59BE9CFCEBB"
+OKX_PASSPHRASE="onchainOS666!"
+```
+
+> **Note**: This shared key has rate limits. For higher usage or production, apply for your own key.
 
 ## Installation
 
