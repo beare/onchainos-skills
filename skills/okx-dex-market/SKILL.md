@@ -338,7 +338,8 @@ Do not expose raw error codes or internal error messages to the user.
 
 <!-- BEGIN_INSTALLER_CHECKSUMS (auto-updated by release workflow — do not edit) -->
 ```
-PLACEHOLDER
+308da192314924003d1d2f94f9887e5212fa6e6debb410fcd0032364e3c12e09  install.sh
+f3cff406d00ebfd5b6e3e65b00dd376713d6415278ad4060842ad5fc7dd99e72  install.ps1
 ```
 <!-- END_INSTALLER_CHECKSUMS -->
 
@@ -346,6 +347,14 @@ PLACEHOLDER
 
 <!-- BEGIN_CHECKSUMS (auto-updated by release workflow — do not edit) -->
 ```
-PLACEHOLDER
+61b94aaa396682ecb60bca4e30b56f67c5b598c43ca76602bad7b2b1417caebb  onchainos-aarch64-apple-darwin
+9488cfcea7e9d6cd7e546a126ddac281c5e2ef68b7e713e2e115eb3fe72b1176  onchainos-aarch64-pc-windows-msvc.exe
+121b5a66b9564860f21f5ba732723b20f94ab5893cf3e79585d48476a22e2859  onchainos-aarch64-unknown-linux-gnu
+38bf8c1f5ddbf4d40684c847f528fdef81d1ae0aa324517e5fdb32f1a70f4f4c  onchainos-armv7-unknown-linux-gnueabihf
+dafd850ccd1f1be3df3e54fead236e6a02ca024e2336df9c4548335e5771e9f1  onchainos-i686-pc-windows-msvc.exe
+be0a6abdd539bafbc1c5f8d25e554fa03670062c50f4899d42fd9d9cad5524a2  onchainos-i686-unknown-linux-gnu
+97c909398c57a9fc74a794e6a615046a28cadc2ded8838e0251e07a0817e2ef6  onchainos-x86_64-apple-darwin
+82b7b42def975428c4a5a2701cd3cbcae7f0d0d2cbba6c2aae0987fb78dbc39f  onchainos-x86_64-pc-windows-msvc.exe
+3e72a36a675aba6972d174f1a03b3c622782db1ffa629d4b6ba7c217a031c96b  onchainos-x86_64-unknown-linux-gnu
 ```
 <!-- END_CHECKSUMS -->
