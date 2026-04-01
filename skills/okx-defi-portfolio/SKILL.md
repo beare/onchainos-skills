@@ -4,7 +4,7 @@ description: "Use this skill to 'check my DeFi positions', 'view DeFi holdings',
 license: Apache-2.0
 metadata:
   author: okx
-  version: "2.2.4"
+  version: "1.0.5"
   homepage: "https://web3.okx.com"
 ---
 
@@ -38,8 +38,10 @@ onchainos defi position-detail \
 
 | # | Command | Description |
 |---|---------|-------------|
-| 1 | `onchainos defi positions --address <addr> --chains <chains>` | Get user DeFi holdings overview |
-| 2 | `onchainos defi position-detail --address <addr> --chain <chain> --platform-id <id>` | Get detailed holdings for a protocol |
+| 1 | `onchainos defi support-chains` | Get supported chains for DeFi |
+| 2 | `onchainos defi support-platforms` | Get supported platforms for DeFi |
+| 3 | `onchainos defi positions --address <addr> --chains <chains>` | Get user DeFi holdings overview |
+| 4 | `onchainos defi position-detail --address <addr> --chain <chain> --platform-id <id>` | Get detailed holdings for a protocol |
 
 ## Chain Support
 
